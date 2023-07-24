@@ -5,7 +5,6 @@
 
 Console.WriteLine("Введите трехзначное целое число");
 int number = Convert.ToInt32(Console.ReadLine());
-
 if (number < 0)
 {
     number *= -1;
@@ -20,7 +19,6 @@ else
 {
     Console.WriteLine("Число не трехзначное");
 }
-
 
 int result2 = number / 100; // Первая цифра трехзначного числа
 int result3 = number / 10 % 10; // Вторая цифра трехзначного числа
